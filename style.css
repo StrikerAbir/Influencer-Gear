@@ -31,6 +31,11 @@ header{
     justify-content:space-between;
     
 }
+.dropdown-icon-li{
+    display: none;
+    list-style: none;
+    font-size:24px;
+}
 .nav-name{
     font-weight: 700px;
 }
@@ -201,5 +206,28 @@ footer p{
     text-decoration: none;
     color: white;
     font-size:25px;
+    
+}
+
+@media screen and (max-width:688px){
+    /* header */
+    header {
+        padding: 0;
+    }
+    .nav-bar{
+        justify-content: space-evenly;
+    }
+    .dropdown-icon-li{
+        display: block;
+    }
+    .nav-items ul{
+        padding: 0;
+    }
+    .nav-items li{
+        padding: 0;
+    }
+    .hide{
+        display: none;
+    }
     
 }
